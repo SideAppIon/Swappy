@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04AB9AF7204D8D3B711E0A38 /* DetailSampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60231B46181EB312D36F77 /* DetailSampler.swift */; };
+		250DEF295DBDF967E8A28BB0 /* SystemSampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DEB21107DBC6B397C1C585 /* SystemSampler.swift */; };
+		2B5390FF20F53F3B8F0E89A4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21E04C606B3B2882E22967A /* main.swift */; };
+		2EE4EDB63533A02312F67F97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F47ACB6552C197BBA7B9D9 /* ContentView.swift */; };
+		3920E29B1E6FAD01178F81CE /* cswappy.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F867190A7394717BA5170B6 /* cswappy.c */; };
+		45BDFFBD9A0ABDA8AA7712F6 /* Motion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C34258A8332191DD2AF70 /* Motion.swift */; };
+		5495DDC3A2C71DEDCD2A14ED /* Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85EB844DE04FC1EFCCE0A96 /* Format.swift */; };
+		6BD9214E298B8B06999A647C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDB838FC9F4FEBFC5175E61 /* AppDelegate.swift */; };
+		6ED55662629A2C14A2242E0F /* Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85EB844DE04FC1EFCCE0A96 /* Format.swift */; };
+		79000F3EFB4208BA6A97C142 /* SwappyWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E74E58E134866223C677CEB4 /* SwappyWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9439FCC1F5519BCE49470EC1 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF3BDB77BD5E0DFBBC1DE82 /* Settings.swift */; };
+		9891399F666553DA91EACE7C /* ProcessScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40989DB5DFBF06E8A8BBBC34 /* ProcessScanner.swift */; };
+		B2CA9A617A4A3D07CBBF4649 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325A99E706120FE77C986907 /* Strings.swift */; };
+		B5882F49BA834B6AF2076076 /* Monitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5913CE2041739BF108C274D5 /* Monitor.swift */; };
+		C85192477206EC3D331F62A6 /* SystemSampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DEB21107DBC6B397C1C585 /* SystemSampler.swift */; };
+		CC25C43B479DA7EB1DCD5BC9 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96AF1616F0C2D7C47907493 /* DetailView.swift */; };
+		CDED2A775DA6A60AA2DF1C0B /* SwappyWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A0502DDE25D3E2588260EA /* SwappyWidget.swift */; };
+		D0252C26FCD96993F9FEE624 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABAF734508685A5FC82C996 /* SwiftUI.framework */; };
+		D04EAE3897B70C16C98D8F76 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 46956641B59965598D54866A /* AppIcon.icns */; };
+		E77E31CC10954D98E8CDCE4E /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3676447DD869F22E435E5E18 /* WidgetKit.framework */; };
+		E96DDBF06C882682770A492C /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325A99E706120FE77C986907 /* Strings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		474D27E8802D540714F3A003 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C68716235FC522D9482AA3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9DF3863B5B32A50BD793926;
+			remoteInfo = SwappyWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1EAEEB4624612FB476E34ECD /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				79000F3EFB4208BA6A97C142 /* SwappyWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0F867190A7394717BA5170B6 /* cswappy.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cswappy.c; sourceTree = "<group>"; };
+		12B869CED6C7165E67E40059 /* Swappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swappy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		227C34258A8332191DD2AF70 /* Motion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion.swift; sourceTree = "<group>"; };
+		25BF08FE4EE46A34C6C18D53 /* cswappy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cswappy.h; sourceTree = "<group>"; };
+		2BF3BDB77BD5E0DFBBC1DE82 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		325A99E706120FE77C986907 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		3676447DD869F22E435E5E18 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		40989DB5DFBF06E8A8BBBC34 /* ProcessScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessScanner.swift; sourceTree = "<group>"; };
+		46956641B59965598D54866A /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+		5913CE2041739BF108C274D5 /* Monitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monitor.swift; sourceTree = "<group>"; };
+		A21E04C606B3B2882E22967A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A85EB844DE04FC1EFCCE0A96 /* Format.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Format.swift; sourceTree = "<group>"; };
+		A96AF1616F0C2D7C47907493 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		AABAF734508685A5FC82C996 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		BA60231B46181EB312D36F77 /* DetailSampler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSampler.swift; sourceTree = "<group>"; };
+		C1DEB21107DBC6B397C1C585 /* SystemSampler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemSampler.swift; sourceTree = "<group>"; };
+		C9A0502DDE25D3E2588260EA /* SwappyWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwappyWidget.swift; sourceTree = "<group>"; };
+		E74E58E134866223C677CEB4 /* SwappyWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SwappyWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBDB838FC9F4FEBFC5175E61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8F47ACB6552C197BBA7B9D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9AF4D595D3C93DA2D6DC5EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77E31CC10954D98E8CDCE4E /* WidgetKit.framework in Frameworks */,
+				D0252C26FCD96993F9FEE624 /* SwiftUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		025C6C01539D093ADB5E2858 /* CSwappy */ = {
+			isa = PBXGroup;
+			children = (
+				0F867190A7394717BA5170B6 /* cswappy.c */,
+				3A36F273D610B697B060C3C1 /* include */,
+			);
+			path = CSwappy;
+			sourceTree = "<group>";
+		};
+		04919545D8BBA75B3707FF07 /* Swappy */ = {
+			isa = PBXGroup;
+			children = (
+				EBDB838FC9F4FEBFC5175E61 /* AppDelegate.swift */,
+				F8F47ACB6552C197BBA7B9D9 /* ContentView.swift */,
+				BA60231B46181EB312D36F77 /* DetailSampler.swift */,
+				A96AF1616F0C2D7C47907493 /* DetailView.swift */,
+				A21E04C606B3B2882E22967A /* main.swift */,
+				5913CE2041739BF108C274D5 /* Monitor.swift */,
+				227C34258A8332191DD2AF70 /* Motion.swift */,
+				40989DB5DFBF06E8A8BBBC34 /* ProcessScanner.swift */,
+				2BF3BDB77BD5E0DFBBC1DE82 /* Settings.swift */,
+			);
+			path = Swappy;
+			sourceTree = "<group>";
+		};
+		0C9504517868F89475BF8AE5 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A85EB844DE04FC1EFCCE0A96 /* Format.swift */,
+				325A99E706120FE77C986907 /* Strings.swift */,
+				C1DEB21107DBC6B397C1C585 /* SystemSampler.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		0F4EAC17F0F3F8465269F7A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AABAF734508685A5FC82C996 /* SwiftUI.framework */,
+				3676447DD869F22E435E5E18 /* WidgetKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A36F273D610B697B060C3C1 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				25BF08FE4EE46A34C6C18D53 /* cswappy.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		536432BD968834C969D0A394 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				C9A0502DDE25D3E2588260EA /* SwappyWidget.swift */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		8582677657D8F3F60B01DEE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12B869CED6C7165E67E40059 /* Swappy.app */,
+				E74E58E134866223C677CEB4 /* SwappyWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87AE35D480C52D35DBDD6729 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				025C6C01539D093ADB5E2858 /* CSwappy */,
+				0C9504517868F89475BF8AE5 /* Shared */,
+				04919545D8BBA75B3707FF07 /* Swappy */,
+				536432BD968834C969D0A394 /* Widget */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C71FE6696F908279494B6144 = {
+			isa = PBXGroup;
+			children = (
+				F5AF00419558C19A5A787C1D /* Resources */,
+				87AE35D480C52D35DBDD6729 /* Sources */,
+				0F4EAC17F0F3F8465269F7A2 /* Frameworks */,
+				8582677657D8F3F60B01DEE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5AF00419558C19A5A787C1D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				46956641B59965598D54866A /* AppIcon.icns */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BC75F2A73235FABF7B5830A /* Swappy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC453F80F811A47B27CB69C2 /* Build configuration list for PBXNativeTarget "Swappy" */;
+			buildPhases = (
+				0EA0034855ADB483DFA258A3 /* Sources */,
+				735409F4D4B7BF0CFC450BF0 /* Resources */,
+				1EAEEB4624612FB476E34ECD /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FCA2285C3B549E651541439 /* PBXTargetDependency */,
+			);
+			name = Swappy;
+			packageProductDependencies = (
+			);
+			productName = Swappy;
+			productReference = 12B869CED6C7165E67E40059 /* Swappy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9DF3863B5B32A50BD793926 /* SwappyWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043337390E63241BB52CFC10 /* Build configuration list for PBXNativeTarget "SwappyWidget" */;
+			buildPhases = (
+				7E5A44B0B6E8A3E413F660D8 /* Sources */,
+				F9AF4D595D3C93DA2D6DC5EF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwappyWidget;
+			packageProductDependencies = (
+			);
+			productName = SwappyWidget;
+			productReference = E74E58E134866223C677CEB4 /* SwappyWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C68716235FC522D9482AA3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1BC75F2A73235FABF7B5830A = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+					C9DF3863B5B32A50BD793926 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = FFB2FB300ED8CAC3F8699682 /* Build configuration list for PBXProject "Swappy" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = C71FE6696F908279494B6144;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8582677657D8F3F60B01DEE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BC75F2A73235FABF7B5830A /* Swappy */,
+				C9DF3863B5B32A50BD793926 /* SwappyWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		735409F4D4B7BF0CFC450BF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04EAE3897B70C16C98D8F76 /* AppIcon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EA0034855ADB483DFA258A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD9214E298B8B06999A647C /* AppDelegate.swift in Sources */,
+				2EE4EDB63533A02312F67F97 /* ContentView.swift in Sources */,
+				04AB9AF7204D8D3B711E0A38 /* DetailSampler.swift in Sources */,
+				CC25C43B479DA7EB1DCD5BC9 /* DetailView.swift in Sources */,
+				6ED55662629A2C14A2242E0F /* Format.swift in Sources */,
+				B5882F49BA834B6AF2076076 /* Monitor.swift in Sources */,
+				45BDFFBD9A0ABDA8AA7712F6 /* Motion.swift in Sources */,
+				9891399F666553DA91EACE7C /* ProcessScanner.swift in Sources */,
+				9439FCC1F5519BCE49470EC1 /* Settings.swift in Sources */,
+				B2CA9A617A4A3D07CBBF4649 /* Strings.swift in Sources */,
+				C85192477206EC3D331F62A6 /* SystemSampler.swift in Sources */,
+				3920E29B1E6FAD01178F81CE /* cswappy.c in Sources */,
+				2B5390FF20F53F3B8F0E89A4 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5A44B0B6E8A3E413F660D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5495DDC3A2C71DEDCD2A14ED /* Format.swift in Sources */,
+				E96DDBF06C882682770A492C /* Strings.swift in Sources */,
+				CDED2A775DA6A60AA2DF1C0B /* SwappyWidget.swift in Sources */,
+				250DEF295DBDF967E8A28BB0 /* SystemSampler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FCA2285C3B549E651541439 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9DF3863B5B32A50BD793926 /* SwappyWidget */;
+			targetProxy = 474D27E8802D540714F3A003 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03F25B91846E9189EAFE7606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.swappy.Swappy;
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = Sources/CSwappy/include/cswappy.h;
+			};
+			name = Debug;
+		};
+		3538407153324D88517B40C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.swappy.Swappy;
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = Sources/CSwappy/include/cswappy.h;
+			};
+			name = Release;
+		};
+		92B3E430B7BDEAF0EBA74A5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A67129C756D01A3A33E1E4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Resources/Widget.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Resources/Widget-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.swappy.Swappy.Widget;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AC7617C8A96B55265BF02968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Resources/Widget.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Resources/Widget-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.swappy.Swappy.Widget;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DF82CBC8298849023EDFDD30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043337390E63241BB52CFC10 /* Build configuration list for PBXNativeTarget "SwappyWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67129C756D01A3A33E1E4FE /* Debug */,
+				AC7617C8A96B55265BF02968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EC453F80F811A47B27CB69C2 /* Build configuration list for PBXNativeTarget "Swappy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F25B91846E9189EAFE7606 /* Debug */,
+				3538407153324D88517B40C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FFB2FB300ED8CAC3F8699682 /* Build configuration list for PBXProject "Swappy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B3E430B7BDEAF0EBA74A5F /* Debug */,
+				DF82CBC8298849023EDFDD30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C68716235FC522D9482AA3E /* Project object */;
+}

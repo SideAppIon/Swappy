@@ -1,0 +1,46 @@
+name: Swappy
+options:
+  deploymentTarget:
+    macOS: "13.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "1.1"
+    CURRENT_PROJECT_VERSION: "2"
+    # Local ad-hoc signature: builds on any Mac without an Apple developer account.
+    CODE_SIGN_STYLE: Manual
+    CODE_SIGN_IDENTITY: "-"
+    DEVELOPMENT_TEAM: ""
+    GENERATE_INFOPLIST_FILE: NO
+targets:
+  Swappy:
+    type: application
+    platform: macOS
+    sources:
+      - Sources/Swappy
+      - Sources/Shared
+      - Sources/CSwappy
+      - Resources/AppIcon.icns
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: app.swappy.Swappy
+        INFOPLIST_FILE: Resources/Info.plist
+        SWIFT_OBJC_BRIDGING_HEADER: Sources/CSwappy/include/cswappy.h
+    dependencies:
+      - target: SwappyWidget
+  SwappyWidget:
+    type: app-extension
+    platform: macOS
+    deploymentTarget: "14.0"
+    sources:
+      - Sources/Widget
+      - Sources/Shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: app.swappy.Swappy.Widget
+        INFOPLIST_FILE: Resources/Widget-Info.plist
+        CODE_SIGN_ENTITLEMENTS: Resources/Widget.entitlements
+    dependencies:
+      - sdk: WidgetKit.framework
+      - sdk: SwiftUI.framework
